@@ -1,6 +1,6 @@
 import streamlit as st
 from enum import Enum
-from black_scholes_models import BSM_Model, Black_Model
+from option_pricing_models import BSM_Model, Black_Model
 import json
 
 
