@@ -48,3 +48,13 @@ In 1976, Fischer Black proposed a model, now known as Black’s model, for valui
 European options on futures. The model has proved to be an
 important alternative to the Black–Scholes–Merton model for valuing a wide range of
 European spot options.
+
+## Streamlit Web App Demonstration
+
+Pick an underlying asset, choose a model, and calculate the price.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5e1f2e7f-9dbf-48ed-b096-1f0339861ed9" alt="option_app" />
+</p>
+
+
