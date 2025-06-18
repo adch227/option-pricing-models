@@ -69,8 +69,10 @@ if pricing_model:
                 put_price = model.put_price()
         elif pricing_model == PRICING_MODELS.BLACK.value:
             model = Black_Model(f_price, strike_price, days_to_expiry, risk_free_rate, volatility)
+            call_price = model.call_price()
+            put_price = model.put_price()
 
-        st.subheader(f"Call Price: {call_price:.2f}")
+        st.subheader(f"Call Price:{call_price:.2f}")
         st.subheader(f"Put Price: {put_price:.2f}")
 
 
